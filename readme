@@ -1,0 +1,38 @@
+Taller 2 - Módulo 3
+
+Análisis de la Incorporación de JavaScript en
+el Proyecto del Hospital
+
+
+Fecha: 4 de dic. de 2024
+Felipe Rodríguez
+
+Curso: Especialización Front-end 2024 Grupo 1
+
+el proyecto del hospital en el taller 2 del módulo 3 se decidió incorporar JavaScript al sitio web con el fin de mejorar la funcionalidad y la experiencia de usuario. He aquí un resumen de los aspectos más significativos y sus contribuciones al proyecto.
+
+**se implementar un sistema interactivo mediante "prompts", los datos incluyen: nombre, email, telefono, el sistema valida los datos ingresados y muestra mensajes personalizados deacuerdo a la informacioón, tambien tiene manejo de errores mediante try/catch.
+
+**scope de las variables utilizadas
+las variables nombre, email y telefono,tienes scope global ya que son declaradas fuera de cualquier bloque de codigo o funcion, esto permite acceder a ellas desde cualquier parte del codigo.
+las variables dentro del bloque try/catch tienes scope local, ya que solo son accesibles dentro del bloque try/catch, esta caracteritica ayuda a evitar confusiones y coliciones de nombres con otras variables en el codigo. 
+
+**operadores utilizados
+Operador Lógico &&:
+Se utiliza para validar que el email contenga tanto @ como ..
+
+Operador !:
+Utilizado para comprobar si una variable no cumple con una condición específica, como if (!email).
+
+Operador throw:
+Permite lanzar errores personalizados en caso de que los datos ingresados sean inválidos.
+
+**Manejo de Errores con try/catch
+
+Implementación:
+
+El código utiliza un bloque try/catch para manejar errores durante la validación de los datos. Esto asegura que el programa no se detenga abruptamente y permita informar al usuario sobre los errores.
+
+**Uso del Debugger
+
+El proyecto utiliza la instrucción debugger; para facilitar la depuración. Esto permite pausar la ejecución del programa en un punto específico y analizar el estado de las variables.
